@@ -44,12 +44,12 @@ Moving from breadboards to a production-ready PCB, this project demonstrates com
 
 #### Root schematic page
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/39e5015c-4b0e-4091-8781-f9d2d70c54bb" width="400" alt="root schematics">
+  <img src="https://github.com/user-attachments/assets/39e5015c-4b0e-4091-8781-f9d2d70c54bb" width="800" alt="root schematics">
 </p>
 
 #### RAM Module
 <p align="center">
-	<img src="https://github.com/user-attachments/assets/1ac22821-a0c0-4070-8ca1-6a5d30e9a24c" width="400" alt="Memory schematics">
+	<img src="https://github.com/user-attachments/assets/1ac22821-a0c0-4070-8ca1-6a5d30e9a24c" width="800" alt="Memory schematics">
 </p>
 
 
