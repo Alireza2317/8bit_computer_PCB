@@ -1,31 +1,72 @@
-# PCB Design of Ben Eater's 8-Bit Computer
-This repository contains my KiCad design files, schematics and final gerber files for Ben Eater's 8-bit computer. Designing this board was both challenging and rewarding, offering a deep dive into the workings of a computer at the logic circuit level.
+# PCB Design of Ben Eater's 8-Bit Computer 🖥️
 
-## Features of the Design
-- Clear Schematics: Organized into hierarchical sheets and labeled blocks for improved readability and modularity.
-- Challenging PCB Routing: The largest board I’ve ever designed, with complex routing for all components.
-- Learning Focus: The project helped me strengthen my understanding of PCB design steps.
+![KiCad](https://img.shields.io/badge/KiCad-blue?logo=kicad&logoColor=white)
+![Hardware](https://img.shields.io/badge/Hardware-PCB_Design-orange)
+![License](https://img.shields.io/badge/license-MIT-grey)
 
-## Images of the final project
-3D images:
+A complete **Printed Circuit Board (PCB)** implementation of the famous 8-bit computer architecture (SAP-1) designed by Ben Eater.
 
-![3d_1](https://github.com/user-attachments/assets/9e79dd56-1a1e-434d-a4ed-2072bcc259a7)
-![3d_2](https://github.com/user-attachments/assets/291e1488-833a-4968-a004-251972bc373b)
+Moving from breadboards to a production-ready PCB, this project demonstrates complex signal routing, hierarchical schematic organization, and digital logic design using the **74xx TTL series** chips.
 
-Full image of the PCB:
+## 📸 3D Render
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9e79dd56-1a1e-434d-a4ed-2072bcc259a7" alt="3D Top View" width="800">
+</p>
 
-![pcb](https://github.com/user-attachments/assets/fcf23314-1296-4016-a03c-5ebc52735a74)
+## ⚙️ Technical Specifications
+| Feature | Details |
+| :--- | :--- |
+| **EDA Software** | KiCad |
+| **Architecture** | Simple As Possible |
+| **Logic Family** | 74LS / 74HC Series (TTL) |
+| **PCB Layers** | 2 Layers |
+| **Mounting** | Through-Hole Technology (THT) |
 
-Just a couple of images of schematics, since there are a lot of them!
+## 🧠 Design Challenges & Features
+* **Hierarchical Schematics:** The design is broken down into modular logical blocks (Clock, RAM, ALU, Control Logic) using KiCad's hierarchical sheets for maintainability.
+* **Complex Routing:** Managing hundreds of data and control lines on a 2-layer board required careful optimization of trace paths to minimize vias and ensure signal integrity.
+* **Bus Architecture:** Implements a central 8-bit bus connecting all registers and the Arithmetic Logic Unit.
 
-![sch1](https://github.com/user-attachments/assets/39e5015c-4b0e-4091-8781-f9d2d70c54bb)
-![sch2](https://github.com/user-attachments/assets/1ac22821-a0c0-4070-8ca1-6a5d30e9a24c)
+## 🖼️ Gallery
+
+#### PCB Layout
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fcf23314-1296-4016-a03c-5ebc52735a74" alt="PCB Layout" width="700">
+</p>
+
+#### 3d View Snapshot
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/291e1488-833a-4968-a004-251972bc373b" alt="3D Top View" width="800">
+</p>
 
 
-## Acknowledgments
-A huge thanks to Ben Eater for his amazing content and clear explanations, which guided me throughout this project. Check out his awesome [youtube playlist](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU) if you want to learn how computers work.
+### Schematics (Sneak Peek)
 
-## How to Use This Repository
-- Clone the repository to access all KiCad design files.
-- Explore the schematics and PCB layout in KiCad.
-- Feel free to use or modify the designs for your own projects (just give credit if you share it!).
+#### Root schematic page
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/39e5015c-4b0e-4091-8781-f9d2d70c54bb" width="400" alt="root schematics">
+</p>
+
+#### RAM Module
+<p align="center">
+	<img src="https://github.com/user-attachments/assets/1ac22821-a0c0-4070-8ca1-6a5d30e9a24c" width="400" alt="Memory schematics">
+</p>
+
+
+## 🚀 How to Open
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Alireza2317/8bit_computer_PCB
+   ```
+2. **Open in KiCad:**
+   * Launch **KiCad**.
+   * Go to `File > Open Project`.
+   * Select the `.kicad_pro` file in the root directory.
+3. **Explore:**
+   * Click the **Schematic Editor** to see the logic.
+   * Click the **PCB Editor** to see the physical routing.
+
+## 👏 Acknowledgments
+This project is based on the incredible educational series by **Ben Eater**.
+* [Ben Eater's Website](https://eater.net/8bit)
+* [YouTube Playlist](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU)
